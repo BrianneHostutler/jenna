@@ -2,4 +2,4 @@
 
 A place for Jenna to put her resume. 
 
-[jennahostutler.com](https://jennahostutler.com)
+[jennahostutler.com](http://jennahostutler.com)
