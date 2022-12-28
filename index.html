@@ -9,7 +9,13 @@
     body {
         background-repeat: repeat;
         color: Teal;
-        background-image: url(jenna-bg.jpeg);
+        background-image: url(jenna-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container {
+        max-width: 1400px;
+        margin: 2rem auto;
     }
     ul {
     	margin-left:0;
@@ -65,7 +71,7 @@
 
     #header {
         font-family: 'EB Garamond', serif;
-        border-width: thick;
+        /*border-width: thick;*/
         border-style: solid;
     }
 
@@ -95,15 +101,20 @@
 </head>
 
 <body>
-    <div id="header">
+    <div class="container" id="header">
         <h1>Jenna Hostutler</h1>
-        <a href="mailto:jennahostutler@gmail.com">jennahostutler@gmail.com</a><br>
+        <a target="_blank" href="https://www.linkedin.com/in/jenna-hostutler-27196812a/">Find me on LinkedIn</a><br>
     </div>
     
-    <div id="internship">
+    <div class="container" id="internship">
     	<h2>WORK EXPERIENCE</h2>
             <h3>Cvent</h3>
-            <h4>Solutions Specialist: September 2020 - present</h4> 
+            <h4>Senior Solutions Specialist: September 2021 - present</h4> 
+            <ul> 
+                <li>Provided strategic support to event and marketing professionals to promote their adoption of event registration and other products through implementing software integrations, training, and troubleshooting </li>
+                <li>Produced, edited, and published client-facing support articles</li>
+            </ul>
+            <h4>Solutions Specialist: September 2020 - September 2021</h4> 
             <ul> 
                 <li>Assisted event professionals in implementing software, training, and troubleshooting </li>
                 <li>Produced, edited, and published client-facing support articles</li>
@@ -115,48 +126,32 @@
             </ul>
     	
     		<h3>Consumer Technology Association</h3>
-	        <h4>CES International Marketing Intern, 2018 - present</h4> 
+	        <h4>CES International Marketing Intern, June 2018 - May 2019</h4> 
 
 			<ul> 
-				<li>Contributed to CES Unveiled Amsterdam and CES Unveiled Paris through copywriting, coordinating meetings, updating website content, creating on-site documents, and working with partners on marketing initiatives</li>
-				<li>Assisted Manager, International Marketing & Programs with projects for CES 2019, including signage, on-site documents, and the CES Delegation Program</li>
+				<li>Contributed to international CES events through copywriting, updating website content, and working with partner companies on marketing initiatives</li>
+				<li>Assisted Manager, International Marketing & Programs with projects for CES 2019, including signage and on-site documents</li>
 			</ul>
     	
     		<h3>Philadelphia Film Society </h3>
 
-	        <h4> Festival Events Intern, 2017 - 2018</h4> 
+	        <h4> Festival Events Intern, September 2017 - April 2018</h4> 
 			<ul> 
-				<li>Assisted Events Director in coordinating events related to the 26th Philadelphia Film Festival</li>
-				<li>Compiled documents and badges for festival guests</li>
-				<li>Contributed to the execution of major Film Society events</li>
+				<li>Contributed to the execution of major PFS events through community outreach, donation collection, on-site volunteer coordination, and production of documents and badges for festival guests</li>
+				<li>Collaborated with Events Director to assist in coordinating events related to the 26th Philadelphia Film Festival</li>
 			</ul>
 
 			<h3>Villanova Writing Center</h3>
 
-	        <h4>Writing Tutor, 2016 - 2017</h4>
+	        <h4>Writing Tutor, September 2016 - May 2018</h4>
 
 			<ul>
-		      	<li>Work one-on-one with Villanova students seeking assistance in the writing process</li>
-		      	<li>Coach students to strengthen grammar, spelling, word usage, and essay writing skills</li>
-		      	<li>Required semester-long training class</li>
+		      	<li>Worked one-on-one with Villanova students seeking assistance in the writing process</li>
+		      	<li>Coached students to strengthen grammar, spelling, word usage, and essay writing skills</li>
 			</ul>
-    	
-			<h3>P.J. Sweeney’s Restaurant & Irish Pub</h3>
-	        <h4>Hostess, 2017</h4>
-			<ul>
-	      		<li>Greeted guests in a friendly manner and directed them to their tables</li>
-				<li>Coordinated reservations and table assignments to ensure efficient service</li>
-			</ul> 
-
-	        <h3>Hotshot Legal</h3>
-	        <h4>Media Intern, 2017</h4>
-			<ul>
-	      		<li>Edited, proofread, and provided feedback on lesson overviews, scripts, and video content</li>
-	       		<li> Developed proficiency with video editing, Trello, and Slack</li>
-			</ul>  
 
 			<h3>Six Flags Great Adventure Employment Center</h3>
-	        <h4>Human Resources Representative, 2016</h4>
+	        <h4>Human Resources Representative, May 2016 - August 2016</h4>
 	    	<ul>
 	      		<li>Interviewed and hired new employees</li>
 	      		<li>Processed new hire and rehire paperwork</li>
@@ -166,33 +161,17 @@
  
     </div>
    
-    <div id="education">
+    <div class="container" id="education">
         <h2>EDUCATION</h2>
         <h3>Villanova University</h3>
-        <h4>Villanova, Pennsylvania<br>Major: French and Francophone Studies &amp; Communication, Bachelor of Arts expected May 2018<br>Minor: Writing and Rhetoric<br>GPA: 3.8<br>
-		Honors: Dean's List (2014-present), Order of Omega honor society<br></h4>
+        <h4>Villanova, Pennsylvania<br>Major: French and Francophone Studies &amp; Communication, Bachelor of Arts - May 2018<br>Minor: Writing and Rhetoric<br>GPA: 3.8<br>
+		Honors: Dean's List (2014-2018), Order of Omega honor society<br></h4>
         <h3>Catholic University of Lille</h3>
         <h4>Lille, France<br>
 		Study abroad experience, Spring 2017</h4>
     </div>
-    <div id="volunteer">
-        <h2>VOLUNTEER EXPERIENCE</h2>
-        <h3>Delaware County Literacy Council</h3>
-        <h4> Tutor, 2015</h4>
-    	<ul>
-      		<li>Work with adult students twice a week to improve their literacy and mathematical skills</li>
-      		<li>Prepare test practice for GED exams</li>
-      		<li>Required 12-hour certification process for Literacy Tutoring</li>
-      	</ul>
-        <h3>RUIBAL</h3><h4>Tutor and Sophomore Leader, 2014-2016</h4>
-  		<ul>
-	  		<li>Lead a group of freshmen students on weekly service trips to St. Rose of Lima school in Philadelphia</li>
-	  		<li>Served as a tutor for elementary school students</li>
-  			<li>Coordinated weekly enrichment activities for elementary school students</li>
-  		</ul>
-    </div>
    
-    <div id="skills"><h2>SKILLS</h2>
+    <div class="container" id="skills"><h2>SKILLS</h2>
 
         <h4>Languages: English and French<br>Technical: Proficiency with HTML, Microsoft Office, and Salesforce</h4>
 
